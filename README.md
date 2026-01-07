@@ -16,3 +16,6 @@ users:
 username:   Password:
 Henry1      customer1
 Charlie2    customer2
+
+test commands:
+python manage.py test tests

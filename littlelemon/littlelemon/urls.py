@@ -26,7 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # All restaurant endpoints
-    path('', include('restaurant.urls')),
+    path('api/', include('restaurant.urls')),
 
     # Booking endpoints (router)
     path('restaurant/', include(router.urls)),

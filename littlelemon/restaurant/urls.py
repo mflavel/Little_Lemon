@@ -9,8 +9,8 @@ router.register(r'users', views.UserViewSet)
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('menu/', views.MenuItemView.as_view(), name='menu-items'),
-    path('menu/<int:pk>/', views.SingleMenuItemView.as_view(), name='single-menu-item'),
+    path('menu-items/', views.MenuItemView.as_view(), name='menu-items'),
+    path('menu-items/<int:pk>/', views.SingleMenuItemView.as_view(), name='single-menu-item'),
     path('', include(router.urls)),
     path('api-token-auth/', obtain_auth_token),
 ]
