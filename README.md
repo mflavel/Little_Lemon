@@ -2,6 +2,18 @@
 
 api capstone
 
+Paht to test:
+/api/  -Static Html conent
+/api/menu-items/  -list menu items
+/api/bookings/   -list and create bookings
+/auth/users/   -create users
+/auth/token/login  -see user tokens
+
+
+
+
+
+
 create virtural environment: python -m venv venv
 
 open virtural environment: venv\Scripts\activate
